@@ -17,14 +17,14 @@ const Cart = () => {
         </>
       ) : (
         <h1 className="text-center text-xl font-semibold text-gray-700">
-          No Products added yet
+          No Products added yet!
         </h1>
       )}
       <Link
         to="/product"
         className="text-xl py-1 text-center hover:text-cyan-500 duration-300 select-none"
       >
-        &larr; Go to Product
+        &larr; Go to Products
       </Link>
     </div>
   );
